@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Users\\asesor4.jsscp\\LMR-PROJECTS\\NET-PROJECTS\\ApiWeb\\ApiWeb.csproj": {}
+  },
+  "projects": {
+    "D:\\Users\\asesor4.jsscp\\LMR-PROJECTS\\NET-PROJECTS\\ApiWeb\\ApiWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\asesor4.jsscp\\LMR-PROJECTS\\NET-PROJECTS\\ApiWeb\\ApiWeb.csproj",
+        "projectName": "ApiWeb",
+        "projectPath": "D:\\Users\\asesor4.jsscp\\LMR-PROJECTS\\NET-PROJECTS\\ApiWeb\\ApiWeb.csproj",
+        "packagesPath": "D:\\Users\\asesor4.jsscp\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\asesor4.jsscp\\LMR-PROJECTS\\NET-PROJECTS\\ApiWeb\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\Users\\asesor4.jsscp\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "D:\\Users\\asesor4.jsscp\\AppData\\Roaming\\.dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
